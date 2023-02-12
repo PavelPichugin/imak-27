@@ -1,0 +1,14 @@
+.pdf{
+    width: 90%;
+    height: 700px;
+    border-radius: 20px;
+}
+@media(max-width:768px){
+    .pdf{
+        width: 90%;
+        height: 400px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    
+}

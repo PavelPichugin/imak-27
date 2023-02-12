@@ -1,0 +1,127 @@
+.close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 7%;
+}
+.close_one{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 7%;
+}
+.top_rabota{
+    text-decoration: underline;
+    font-size: 30px;
+    text-align: center;
+}
+.top_rabota:hover{
+    color: black;
+}
+.top_rabota:active{
+    color: black;
+}
+.button{
+    margin-bottom: 20px;
+}
+.form{
+    width: 40%;
+    position: fixed;
+    -webkit-box-shadow: 0px 0px 16px 3px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: 0px 0px 16px 3px rgba(0, 0, 0, 0.116);
+    box-shadow: 0px 0px 16px 3px rgba(0, 0, 0, 0.164);
+    padding: 20px;
+    left: 30%;
+    top: 4%;
+    z-index: 1000000;
+    background-color: white;
+    border-radius: 20px;
+}
+.form_one{
+    width: 40%;
+    position: fixed;
+    -webkit-box-shadow: 0px 0px 16px 3px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: 0px 0px 16px 3px rgba(0, 0, 0, 0.116);
+    box-shadow: 0px 0px 16px 3px rgba(0, 0, 0, 0.164);
+    padding: 20px;
+    left: 30%;
+    top: 4%;
+    z-index: 1000000;
+    background-color: white;
+    border-radius: 20px;
+}
+.op{
+    margin: 15px 0px;
+    z-index: 100000;
+}
+h1{
+    text-align: center;
+    margin: 10px;
+}
+h2{
+    font-size: 22px;
+    font-weight: 600;
+}
+.osn_information{
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.541);
+    width: 70%;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 11px 7px rgba(0, 0, 0, 0.13);
+    -moz-box-shadow: 0px 0px 11px 7px rgba(0, 0, 0, 0.116);
+    box-shadow: 0px 0px 11px 7px rgba(0, 0, 0, 0.164);
+}
+.verh{
+    padding-left: 7px;
+    color: black;
+    width: 80%;
+    border-left: 4px dashed  rgba(0, 0, 0, 0.61);
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 25px;
+}
+@media(max-width:900px){
+    h2{
+        font-size: 18px;
+    }
+    .verh{
+        font-size: 15px;
+    }
+    a{
+        font-size: 20px;
+    }
+    .form{width: 90%;
+    left: 5%;
+    top: 17%;
+    }
+    .form_one{width: 90%;
+        left: 5%;
+        top: 17%;
+        }
+    *{font-size: 15px;}
+    .osn_information{
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.541);
+        width: 96%;
+        margin: 20px auto;
+        padding: 7px;
+        -webkit-box-shadow: 0px 0px 16px 3px rgba(0, 0, 0, 0.13);
+        -moz-box-shadow: 0px 0px 16px 3px rgba(0, 0, 0, 0.116);
+        box-shadow: 0px 0px 16px 3px rgba(0, 0, 0, 0.164);
+    }
+    .close{
+        width: 10%;
+    }
+    .close_one{
+        width: 10%;
+    }
+    .form{
+        top: 15px;
+    }
+    .form_one{
+        top: 15px;
+    }
+}
