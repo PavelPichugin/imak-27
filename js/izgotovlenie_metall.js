@@ -4,9 +4,12 @@ let close = document.querySelector(`.close`);
 
 one.addEventListener(`click`, function(e){
     form.classList.toggle(`d-none`);
+    close.classList.toggle(`d-none`);
+
 });
 close.addEventListener(`click`, function(e){
     form.classList.toggle(`d-none`);
+    close.classList.toggle(`d-none`);
 });
 let one_one = document.querySelector(`.one_one`);
 let form_one = document.querySelector(`.form_one`);

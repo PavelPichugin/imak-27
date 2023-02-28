@@ -62,13 +62,51 @@ h1{
   -moz-box-shadow: 0px 0px 11px 7px rgba(0, 0, 0, 0.116);
   box-shadow: 0px 0px 11px 7px rgba(0, 0, 0, 0.164);
 }
+.css_form{
+  margin-top: 2%;
+  margin-left:20%;
+  background-color: white;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 11px 7px rgba(0, 0, 0, 0.13);
+  -moz-box-shadow: 0px 0px 11px 7px rgba(0, 0, 0, 0.116);
+  box-shadow: 0px 0px 11px 7px rgba(0, 0, 0, 0.164);
+}
 .mini{
   font-size: 15px;
   color: black;
   margin-top: 10px;
   max-width: 300px;
 }
+.ynd{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  position: absolute;
+  -webkit-box-shadow: 0px 0px 11px 7px rgba(0, 0, 0, 0.13);
+  -moz-box-shadow: 0px 0px 11px 7px rgba(0, 0, 0, 0.116);
+  box-shadow: 0px 0px 11px 7px rgba(0, 0, 0, 0.164);
+  width: 650px;
+  left: 25%;
+}
+.card_partner{
+  transition: scale 0.5s;
+}
+.card_partner:hover{
+  scale: 1.01;
+}
 @media(max-width:900px){
+  .ynd{
+    width: auto;
+    left: 3%;
+  }
+  .close{
+    z-index: 1000000000000;
+    position: fixed;
+  }
+  .css_form{
+    margin-left: 3%;
+    width: 95%;
+  }
   .text-dark{
     font-size: 15px;
   }
@@ -121,6 +159,7 @@ h1{
       margin-bottom: 3px;
   }
 }
+
 
 @media(max-width:320px){
   .col{
